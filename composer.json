@@ -10,8 +10,5 @@
       "name": "Ralph Huwiler",
       "email": "ralph@huwiler.rocks"
     }
-  ],
-  "require": {
-    "societycms/societycms": "dev-master"
-  }
+  ]
 }
