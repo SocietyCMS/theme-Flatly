@@ -1,0 +1,18 @@
+{
+  "name": "flatly-theme",
+  "version": "1.0.0",
+  "description": "Flatly",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "/resources/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lightbox2": "~2.8.1",
+    "font-awesome": "~4.4.0"
+  }
+}

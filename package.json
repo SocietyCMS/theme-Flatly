@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-shell": "^0.3.0",
+    "laravel-elixir": "*",
+    "browserify-shim": "^3.8.10"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "bootstrap-browserify": "^2.1.1",
+    "bootswatch": "^3.3.5",
+    "dropzone": "^4.0.1",
+    "font-awesome": "^4.4.0",
+    "jquery": "^2.1.4",
+    "jquery-browserify": "^1.8.1"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browser": {
+    "lightbox": "./resources/vendor/lightbox2/dist/js/lightbox.js"
+  },
+  "browserify-shim": {
+    "lightbox": {
+      "lightbox": "lightbox"
+    }
+  }
+}

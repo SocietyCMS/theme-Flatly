@@ -1,0 +1,53 @@
+//
+// Labels
+// --------------------------------------------------
+
+.label.label-o {
+  color: @text-color;
+  border: 1px solid transparent;
+}
+
+// Colors
+// Contextual variations (linked labels get darker on :hover)
+
+.label-default {
+  .label-variant(@label-default-bg);
+}
+
+.label-primary {
+  .label-variant(@label-primary-bg);
+}
+
+.label-success {
+  .label-variant(@label-success-bg);
+}
+
+.label-info {
+  .label-variant(@label-info-bg);
+}
+
+.label-warning {
+  .label-variant(@label-warning-bg);
+}
+
+.label-danger {
+  .label-variant(@label-danger-bg);
+}
+
+
+.label-variant(@color) {
+  background-color: @color;
+
+  &[href] {
+    &:hover,
+    &:focus {
+      background-color: darken(@color, 10%);
+    }
+  }
+
+  &.label-o {
+    background-color: transparent;
+      border-color: darken(@color, 10%);
+   }
+
+}

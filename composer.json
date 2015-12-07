@@ -1,0 +1,17 @@
+{
+  "name": "societycms/theme-flatly",
+  "description": "The SocietyCMS Default Theme.",
+  "keywords": ["cms", "societycms", "theme"],
+  "license": "AGPL",
+  "version": "0.0.1",
+  "type": "societycms-theme",
+  "authors": [
+    {
+      "name": "Ralph Huwiler",
+      "email": "ralph@huwiler.rocks"
+    }
+  ],
+  "require": {
+    "societycms/societycms": "dev-master"
+  }
+}
