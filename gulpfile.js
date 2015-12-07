@@ -23,7 +23,6 @@ elixir(function (mix) {
             "app.less"
         ]);
 
-
     /**
      * Concat scripts
      */
