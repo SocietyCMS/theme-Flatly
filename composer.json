@@ -10,5 +10,10 @@
       "name": "Ralph Huwiler",
       "email": "ralph@huwiler.rocks"
     }
-  ]
+  ],
+  "scripts": {
+    "post-update-cmd": [
+      "php artisan stylist:publish"
+    ]
+  },
 }
