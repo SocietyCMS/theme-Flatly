@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "post-update-cmd": [
-      "php artisan stylist:publish"
+      "php artisan stylist:publish flatly"
     ]
-  },
+  }
 }
