@@ -11367,3 +11367,5 @@ var jquery = require('jquery-browserify');
 var bootstrap = require('bootstrap-browserify');
 
 },{"bootstrap-browserify":1,"jquery-browserify":2}]},{},[3]);
+
+//# sourceMappingURL=app.js.map
