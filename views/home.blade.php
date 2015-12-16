@@ -1,16 +1,23 @@
 @extends('layouts.master')
 
 @section('title')
-    {{ $page->title }} | @parent
-@stop
-@section('meta')
-    <meta name="title" content="{{ $page->meta_title}}" />
-    <meta name="description" content="{{ $page->meta_description }}" />
+    SocietyCMS
 @stop
 
 @section('content')
-    <div class="row">
-        <h1>{{ $page->title }}</h1>
-        {!! $page->body !!}
+
+    <div class="col-lg-12">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <img src="https://raw.githubusercontent.com/SocietyCMS/Artwork/master/SocietyCMS-sign.png"
+                         width="500px">
+                </div>
+                <div class="col-md-12 text-center">
+                    <h1>Welcome to <b>Society</b>CMS</h1>
+                </div>
+            </div>
+        </div>
     </div>
-@stop
+
+@endsection
