@@ -1,30 +1,42 @@
 {
+  "name": "societycms",
+  "version": "1.0.0",
+  "description": "Society CMS",
+  "license": "MIT",
   "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.2",
+    "babel-plugin-transform-runtime": "^6.5.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "browser-sync": "^2.11.1",
+    "browser-sync-webpack-plugin": "^1.0.1",
+    "css-loader": "^0.23.1",
+    "exports-loader": "^0.6.3",
+    "expose-loader": "^0.7.1",
     "gulp": "^3.8.8",
     "gulp-shell": "^0.3.0",
-    "laravel-elixir": "*",
-    "browserify-shim": "^3.8.10"
+    "image-webpack-loader": "^1.6.3",
+    "imports-loader": "^0.6.5",
+    "laravel-elixir": "^4.0.0",
+    "less": "^2.6.0",
+    "less-loader": "^2.2.2",
+    "node-sass": "^3.4.2",
+    "postcss-loader": "^0.8.0",
+    "precss": "^1.4.0",
+    "sass-loader": "^3.1.2",
+    "scss-loader": "0.0.1",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.13"
   },
   "dependencies": {
-    "bootstrap": "^3.3.5",
-    "bootstrap-browserify": "^2.1.1",
+    "bootstrap": "^4.0.0-alpha.2",
     "bootswatch": "^3.3.5",
-    "dropzone": "^4.0.1",
-    "font-awesome": "^4.4.0",
+    "font-awesome": "^4.5.0",
     "jquery": "^2.1.4",
-    "jquery-browserify": "^1.8.1"
-  },
-  "browserify": {
-    "transform": [
-      "browserify-shim"
-    ]
-  },
-  "browser": {
-    "lightbox": "./resources/vendor/lightbox2/dist/js/lightbox.js"
-  },
-  "browserify-shim": {
-    "lightbox": {
-      "lightbox": "lightbox"
-    }
+    "lightbox2": "^2.8.2",
+    "tether": "^1.2.0"
   }
 }

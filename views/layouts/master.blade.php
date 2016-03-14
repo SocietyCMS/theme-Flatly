@@ -11,7 +11,7 @@
     </title>
     <link rel="shortcut icon" href="{{ Theme::url('favicon.ico') }}">
 
-    {!! Theme::style('css/app.css') !!}
+    {!! Theme::script('build.js') !!}
 
 </head>
 <body>
@@ -22,9 +22,6 @@
     @yield('content')
 </div>
 @include('partials.footer')
-
-{!! Theme::script('js/app.js') !!}
-{!! Theme::script('vendor/lightbox2/dist/js/lightbox.min.js') !!}
 
 @yield('javascript')
 
